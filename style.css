@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+
+body {
+  background-image: url('http://www.diyphotography.net/wordpress/wp-content/uploads/2014/03/adam-elmakias-08.jpg');
+  font-family: 'Helvetica Neue';
+
+}
+
+img {
+  width:100%;
+  height:auto;
+
+}
+.keys {
+  margin: 0 auto;
+  display: flex;
+  padding-top: 200px;
+}
+.key {
+  widows: 20px;
+  margin-right: 1px;
+  padding: 5px;
+  padding-bottom: -5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 2px solid black;
+}
+.pressed {
+  background-color: black;
+  color: white;
+}
+
+
+#app-container {
+  max-width: 1000px;
+  margin: 20px;
+}
